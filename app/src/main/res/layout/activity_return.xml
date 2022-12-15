@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#E6E6E6"
+    android:layout_height="match_parent"
+    tools:context=".Return">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="730dp">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="?actionBarSize"
+            app:cardBackgroundColor="#0E55CD"
+            app:cardElevation="10dp"
+            android:id="@+id/returnUpper"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true">
+            <ImageView
+                android:id="@+id/moreFragmentOpener3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="10dp"
+                android:src="@drawable/ic_sharp_arrow_back_" />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/returnUpper"
+            android:background="@color/white"
+            app:cardElevation="10dp"
+            android:id="@+id/userInfoViewerReturn"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="10dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <com.mikhaellopez.circularimageview.CircularImageView
+                    android:id="@+id/orderingUserReturn"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="28dp"
+                    android:layout_marginTop="15dp"
+                    android:src="@drawable/robot1"
+                    app:civ_border="true"
+                    app:civ_border_color="@color/black"
+                    app:civ_border_width="1dp" />
+                <LinearLayout
+                    android:background="@android:color/transparent"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:id="@+id/userNameAndMailReturn"
+                    android:layout_below="@+id/orderingUserReturn">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="User Name"
+                        android:id="@+id/nameViewerReturn"
+                        android:textColor="@color/black"
+                        android:fontFamily="@font/poppins_medium"
+                        android:layout_marginStart="28dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="10dp"
+                        android:textSize="14sp"
+                        android:textAlignment="textStart"
+                        tools:ignore="HardcodedText" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="userxyz@mail.com"
+                        android:textSize="11sp"
+                        android:id="@+id/mailViewerReturn"
+                        android:layout_marginStart="28dp"
+                        android:textAlignment="textStart"
+                        android:fontFamily="@font/poppins"
+                        android:textColor="#A59E9E"
+                        tools:ignore="HardcodedText" />
+
+                </LinearLayout>
+                <LinearLayout
+                    android:id="@+id/userBranch"
+                    android:background="@android:color/transparent"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_below="@+id/userNameAndMailReturn"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="28dp"
+                        android:layout_marginTop="5dp"
+                        android:fontFamily="@font/poppins_medium"
+                        android:text="Branch:"
+                        android:textSize="11sp"
+                        android:textAlignment="textStart"
+                        android:textColor="#A59E9E"
+                        tools:ignore="HardcodedText" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="IT"
+                        android:id="@+id/branchViewerReturn"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginStart="5dp"
+                        android:textSize="11sp"
+                        android:fontFamily="@font/poppins"
+                        android:textColor="#A59E9E"
+                        tools:ignore="HardcodedText" />
+
+                </LinearLayout>
+                <LinearLayout
+                    android:id="@+id/userYearReturn"
+                    android:background="@android:color/transparent"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginBottom="10dp"
+                    android:layout_below="@+id/userBranch"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="28dp"
+                        android:layout_marginTop="5dp"
+                        android:fontFamily="@font/poppins_medium"
+                        android:text="Year:"
+                        android:textSize="11sp"
+                        android:layout_marginBottom="5dp"
+                        android:textAlignment="textStart"
+                        android:textColor="#A59E9E"
+                        tools:ignore="HardcodedText" />
+                    <TextView
+                        android:id="@+id/yearViewerReturn"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="TY"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginStart="5dp"
+                        android:textSize="11sp"
+                        android:layout_marginBottom="5dp"
+                        android:fontFamily="@font/poppins"
+                        android:textColor="#A59E9E"
+                        tools:ignore="HardcodedText" />
+
+                </LinearLayout>
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.core.widget.NestedScrollView
+            android:id="@+id/returnData"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/userInfoViewerReturn"
+            android:layout_marginTop="20dp"
+            android:background="@color/white"
+            android:elevation="10dp"
+            android:overScrollMode="never">
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/returnRecycler"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            </androidx.recyclerview.widget.RecyclerView>
+
+        </androidx.core.widget.NestedScrollView>
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardElevation="10dp"
+            android:id="@+id/returnButtonApproval"
+            app:cardBackgroundColor="#C01616"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Return"
+                    android:id="@+id/returnTexter"
+                    android:textColor="@color/white"
+                    android:textAllCaps="true"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:textSize="18sp"
+                    android:layout_centerInParent="true"
+                    android:fontFamily="@font/poppins_bold"
+                    tools:ignore="HardcodedText" />
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/finalreturn"
+                    android:layout_marginStart="10dp"
+                    android:layout_toEndOf="@+id/returnTexter"
+                    android:layout_alignTop="@+id/returnTexter"/>
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+
+    </RelativeLayout>
+</androidx.core.widget.NestedScrollView>

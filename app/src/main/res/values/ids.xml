@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="slogan" type="id" />
+    <item name="helloMessage" type="id" />
+    <item name="bottomAppBarNavigationView" type="id" />
+</resources>

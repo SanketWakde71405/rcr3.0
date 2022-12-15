@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/rcr30/app/src/main/res/drawable/about.xml" value="0.290625" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/rcr30/app/src/main/res/drawable/add.xml" value="0.290625" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/rcr30/app/src/main/res/drawable/adminadd.xml" value="0.290625" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/rcr30/app/src/main/res/drawable/adminexplore.xml" value="0.290625" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/rcr30/app/src/main/res/drawable/adminhistory.xml" value="0.290625" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/rcr30/app/src/main/res/drawable/baseline.xml" value="0.26614583333333336" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/rcr30/app/src/main/res/drawable/bottom_navigation_item.xml" value="0.290625" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/rcr30/app/src/main/res/drawable/check.xml" value="0.26614583333333336" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/rcr30/app/src/main/res/drawable/cross.xml" value="0.26614583333333336" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/rcr30/app/src/main/res/drawable/cursor.xml" value="0.26614583333333336" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/rcr30/app/src/main/res/drawable/delete.xml" value="0.2074074074074074" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/rcr30/app/src/main/res/drawable/edit.xml" value="0.2074074074074074" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/rcr30/app/src/main/res/drawable/editbutton.xml" value="0.290625" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/rcr30/app/src/main/res/drawable/editbutton2.xml" value="0.290625" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/rcr30/app/src/main/res/drawable/editbutton3.xml" value="0.290625" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/rcr30/app/src/main/res/drawable/explore.xml" value="0.290625" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/rcr30/app/src/main/res/drawable/finalcart_plus.xml" value="0.290625" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/rcr30/app/src/main/res/drawable/gradient_drawable.xml" value="0.26614583333333336" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/rcr30/app/src/main/res/drawable/ic_back_arrow.xml" value="0.2675925925925926" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/rcr30/app/src/main/res/drawable/ic_delete.xml" value="0.20462962962962963" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/rcr30/app/src/main/res/drawable/ic_explore.xml" value="0.290625" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/rcr30/app/src/main/res/drawable/ic_home_icon.xml" value="0.27870370370370373" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/rcr30/app/src/main/res/drawable/ic_login_page.xml" value="0.28615384615384615" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/rcr30/app/src/main/res/drawable/ic_main.xml" value="0.15989583333333332" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/rcr30/app/src/main/res/drawable/ic_new1_1.xml" value="0.290625" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/rcr30/app/src/main/res/drawable/ic_person.xml" value="0.15989583333333332" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/rcr30/app/src/main/res/drawable/ic_sharp_arrow_back.xml" value="0.15989583333333332" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/rcr30/app/src/main/res/drawable/ic_sharp_arrow_back_.xml" value="0.290625" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/rcr30/app/src/main/res/drawable/loginbutton.xml" value="0.28615384615384615" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/rcr30/app/src/main/res/drawable/main_page.xml" value="0.15989583333333332" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/rcr30/app/src/main/res/drawable/mechanical.xml" value="0.290625" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/rcr30/app/src/main/res/drawable/menu_admin.xml" value="0.27870370370370373" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/rcr30/app/src/main/res/drawable/menu_home.xml" value="0.27870370370370373" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/rcr30/app/src/main/res/drawable/menu_person.xml" value="0.27870370370370373" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/rcr30/app/src/main/res/drawable/menu_threedot.xml" value="0.27870370370370373" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/rcr30/app/src/main/res/drawable/profiledomain.xml" value="0.290625" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/rcr30/app/src/main/res/drawable/profilereset.xml" value="0.290625" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/rcr30/app/src/main/res/drawable/qr_code_scan.xml" value="0.26614583333333336" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/rcr30/app/src/main/res/drawable/reset.xml" value="0.290625" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/rcr30/app/src/main/res/drawable/search.xml" value="0.26614583333333336" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/rcr30/app/src/main/res/drawable/searchview_bg.xml" value="0.264" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/rcr30/app/src/main/res/drawable/sign_out.xml" value="0.290625" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/rcr30/app/src/main/res/drawable/teammember.xml" value="0.15052083333333333" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/rcr30/app/src/main/res/drawable/track.xml" value="0.290625" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/rcr30/app/src/main/res/drawable/university.xml" value="0.290625" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/rcr30/app/src/main/res/drawable/update_component_item.xml" value="0.290625" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/rcr30/app/src/main/res/font/.xml" value="0.3046875" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/rcr30/app/src/main/res/font/work  sans .xml" value="0.3046875" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/rcr30/app/src/main/res/layout/activity_add_component.xml" value="0.21261516654854712" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/rcr30/app/src/main/res/layout/activity_cart.xml" value="0.152" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/rcr30/app/src/main/res/layout/activity_cropper.xml" value="0.15625" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/rcr30/app/src/main/res/layout/activity_delete_component.xml" value="0.264" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/rcr30/app/src/main/res/layout/activity_electronic_components.xml" value="0.22010869565217392" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/rcr30/app/src/main/res/layout/activity_explore.xml" value="0.21014492753623187" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/rcr30/app/src/main/res/layout/activity_final.xml" value="0.264" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/rcr30/app/src/main/res/layout/activity_history.xml" value="0.4" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/rcr30/app/src/main/res/layout/activity_index.xml" value="0.4" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/rcr30/app/src/main/res/layout/activity_login.xml" value="0.1793478260869565" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/rcr30/app/src/main/res/layout/activity_main.xml" value="0.14375" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/rcr30/app/src/main/res/layout/activity_mechanical_components.xml" value="0.46647230320699706" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/rcr30/app/src/main/res/layout/activity_new.xml" value="0.20471014492753623" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/rcr30/app/src/main/res/layout/activity_order_info.xml" value="0.2" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/rcr30/app/src/main/res/layout/activity_qrcode.xml" value="0.25" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/rcr30/app/src/main/res/layout/activity_qrcode_scanner.xml" value="0.21920289855072464" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/rcr30/app/src/main/res/layout/activity_return.xml" value="0.3411513859275053" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/rcr30/app/src/main/res/layout/activity_scan.xml" value="0.176" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/rcr30/app/src/main/res/layout/activity_signup.xml" value="0.4" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/rcr30/app/src/main/res/layout/activity_splash.xml" value="0.176" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/rcr30/app/src/main/res/layout/activity_team.xml" value="0.264" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/rcr30/app/src/main/res/layout/activity_update_component.xml" value="0.264" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/rcr30/app/src/main/res/layout/activity_update_component1.xml" value="0.11929824561403508" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/rcr30/app/src/main/res/layout/cartitem.xml" value="0.5318559556786704" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/rcr30/app/src/main/res/layout/componentadderdialog.xml" value="0.20471014492753623" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/rcr30/app/src/main/res/layout/customdialog.xml" value="0.2" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/rcr30/app/src/main/res/layout/datedialog.xml" value="0.25" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/rcr30/app/src/main/res/layout/delete_component_item.xml" value="0.536" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/rcr30/app/src/main/res/layout/explore_new_item.xml" value="0.4" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/rcr30/app/src/main/res/layout/fragment_account.xml" value="0.3007246376811594" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/rcr30/app/src/main/res/layout/fragment_admin.xml" value="0.152" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/rcr30/app/src/main/res/layout/fragment_blank.xml" value="0.15307971014492755" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/rcr30/app/src/main/res/layout/fragment_final_year.xml" value="0.1621376811594203" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/rcr30/app/src/main/res/layout/fragment_first_year.xml" value="0.1621376811594203" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/rcr30/app/src/main/res/layout/fragment_home.xml" value="0.14375" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/rcr30/app/src/main/res/layout/fragment_more.xml" value="0.28416988416988415" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/rcr30/app/src/main/res/layout/fragment_second_year.xml" value="0.1621376811594203" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/rcr30/app/src/main/res/layout/fragment_third_year.xml" value="0.1621376811594203" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/rcr30/app/src/main/res/layout/item_cardview.xml" value="0.35661218424962854" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/rcr30/app/src/main/res/layout/item_history.xml" value="0.4411492122335496" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/rcr30/app/src/main/res/layout/item_nested.xml" value="0.536" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/rcr30/app/src/main/res/layout/network.xml" value="0.14375" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/rcr30/app/src/main/res/layout/resetpassworddialog.xml" value="0.27447916666666666" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/rcr30/app/src/main/res/layout/task_dialog.xml" value="0.25" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/rcr30/app/src/main/res/layout/teammember.xml" value="0.264" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/rcr30/app/src/main/res/layout/upadate_component_item.xml" value="0.1" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/rcr30/app/src/main/res/menu/bottom_nav_menu.xml" value="0.27447916666666666" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/rcr30/app/src/main/res/xml/provider_path.xml" value="0.14375" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/rcr30/app/src/main/res/xml/xml.xml" value="0.14375" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

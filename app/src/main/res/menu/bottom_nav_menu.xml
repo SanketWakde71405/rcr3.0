@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/Home"
+        android:title="@string/home"
+        android:icon="@drawable/menu_home"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/User"
+        android:title="@string/account"
+        android:icon="@drawable/menu_person"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/admin"
+        android:title="@string/admin"
+        android:icon="@drawable/menu_admin"
+        app:showAsAction="never"/>
+
+
+    <item
+        android:id="@+id/more"
+        android:title="@string/more"
+        android:icon="@drawable/menu_threedot"
+        app:showAsAction="never"/>
+
+    <!--    <item-->
+    <!--        android:id="@+id/Aboutsggs"-->
+    <!--        android:title="@string/about_sggs"-->
+    <!--        app:showAsAction="never"/>-->
+    <!--    <item-->
+    <!--        android:id="@+id/AboutRNXG"-->
+    <!--        android:title="@string/about_rnxg"-->
+    <!--        app:showAsAction="never"/>-->
+    <!--    <item-->
+    <!--        android:id="@+id/Logout"-->
+    <!--        android:title="@string/logout"-->
+    <!--        app:showAsAction="never"/>-->
+</menu>

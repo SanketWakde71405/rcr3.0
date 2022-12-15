@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1034188734173",
+    "project_id": "rcr-3-8c92e",
+    "storage_bucket": "rcr-3-8c92e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1034188734173:android:63a545f414459b8cc6a534",
+        "android_client_info": {
+          "package_name": "com.example.rcr30"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1034188734173-7ahudegj5gdt55ipl3oi9tuqce0dq5o2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBBRmr9n1GT0vJYw6ezOvlqqGxuoMWk8KY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1034188734173-7ahudegj5gdt55ipl3oi9tuqce0dq5o2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#C6C6C6"
+    android:overScrollMode="never"
+    android:layout_height="match_parent"
+    tools:context=".OrderInfo">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="800dp">
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="?actionBarSize"
+            app:cardBackgroundColor="#0E55CD"
+            app:cardElevation="10dp"
+            android:id="@+id/orderInfoUpper"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true">
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/orderInfoUpper"
+            android:background="@color/white"
+            app:cardElevation="10dp"
+            android:id="@+id/userInfoViewer"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="10dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <com.mikhaellopez.circularimageview.CircularImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/robot1"
+                    app:civ_border="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:id="@+id/orderingUser"
+                    app:civ_border_width="1dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginStart="28dp"
+                    app:civ_border_color="@color/black"/>
+                <LinearLayout
+                    android:background="@android:color/transparent"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:id="@+id/userNameAndMail"
+                    android:layout_below="@+id/orderingUser">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="User Name"
+                        android:id="@+id/nameViewer"
+                        android:textColor="@color/black"
+                        android:fontFamily="@font/poppins_medium"
+                        android:layout_marginStart="28dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="10dp"
+                        android:textSize="14sp"
+                        android:textAlignment="textStart"
+                        tools:ignore="HardcodedText" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="userxyz@mail.com"
+                        android:textSize="11sp"
+                        android:id="@+id/mailViewer"
+                        android:layout_marginStart="28dp"
+                        android:textAlignment="textStart"
+                        android:fontFamily="@font/poppins"
+                        android:textColor="#A59E9E"
+                        tools:ignore="HardcodedText" />
+
+                </LinearLayout>
+                <LinearLayout
+                    android:id="@+id/userBranch"
+                    android:background="@android:color/transparent"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_below="@+id/userNameAndMail"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="28dp"
+                        android:layout_marginTop="5dp"
+                        android:fontFamily="@font/poppins_medium"
+                        android:text="Branch:"
+                        android:textSize="11sp"
+                        android:textAlignment="textStart"
+                        android:textColor="#A59E9E"
+                        tools:ignore="HardcodedText" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="IT"
+                        android:id="@+id/branchViewer"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginStart="5dp"
+                        android:textSize="11sp"
+                        android:fontFamily="@font/poppins"
+                        android:textColor="#A59E9E"
+                        tools:ignore="HardcodedText" />
+
+                </LinearLayout>
+                <LinearLayout
+                    android:id="@+id/userYear"
+                    android:background="@android:color/transparent"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginBottom="10dp"
+                    android:layout_below="@+id/userBranch"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="28dp"
+                        android:layout_marginTop="5dp"
+                        android:fontFamily="@font/poppins_medium"
+                        android:text="Year:"
+                        android:textSize="11sp"
+                        android:layout_marginBottom="5dp"
+                        android:textAlignment="textStart"
+                        android:textColor="#A59E9E"
+                        tools:ignore="HardcodedText" />
+                    <TextView
+                        android:id="@+id/yearViewer"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="TY"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginStart="5dp"
+                        android:textSize="11sp"
+                        android:layout_marginBottom="5dp"
+                        android:fontFamily="@font/poppins"
+                        android:textColor="#A59E9E"
+                        tools:ignore="HardcodedText" />
+
+                </LinearLayout>
+            </RelativeLayout>
+
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/userInfoViewer"
+            android:layout_marginTop="10dp"
+            android:id="@+id/orderVectorViewer"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_centerHorizontal="true"
+            app:cardElevation="10dp"
+            app:cardBackgroundColor="@color/white">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/orderVector"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/orders"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="28dp"
+                    android:layout_marginTop="10dp"
+                    android:paddingBottom="10dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="10dp"
+                    android:textAlignment="textStart"
+                    android:textColor="#0E55CD"
+                    android:fontFamily="@font/poppins_medium"
+                    android:textSize="11sp"
+                    android:paddingBottom="10dp"
+                    android:layout_toEndOf="@+id/orderVector"
+                    android:text="Orders"
+                    tools:ignore="HardcodedText" />
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.core.widget.NestedScrollView
+            android:id="@+id/userNestedScroll"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/orderVectorViewer"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="20dp"
+            android:background="@color/white"
+            android:overScrollMode="never">
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/orderViewer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:padding="2dp">
+
+            </androidx.recyclerview.widget.RecyclerView>
+        </androidx.core.widget.NestedScrollView>
+
+
+        <RelativeLayout
+            android:id="@+id/approvalButtonViewer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_below="@+id/userNestedScroll"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:padding="10dp">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/approvalButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:padding="10dp"
+                app:cardBackgroundColor="#FF9416"
+                app:cardElevation="10dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/approvalText"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="10dp"
+                        android:fontFamily="@font/poppins"
+                        android:shadowColor="@color/black"
+                        android:shadowDx="1"
+                        android:shadowDy="1"
+                        android:shadowRadius="5"
+                        android:text="Approve"
+                        android:textAlignment="center"
+                        android:textColor="@color/white"
+                        android:textSize="18sp"
+                        tools:ignore="HardcodedText" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_toEndOf="@+id/approvalText"
+                        android:src="@drawable/approval" />
+
+
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+
+</androidx.core.widget.NestedScrollView>

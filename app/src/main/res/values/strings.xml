@@ -1,0 +1,53 @@
+<resources>
+    <string name="app_name">RCR</string>
+    <string name="email">Email:</string>
+    <string name="signup">Signup</string>
+    <string name="name">Name:</string>
+    <string name="login">Login</string>
+    <string name="todo">TODO</string>
+    <string name="field_of_interest">Field of Interest</string>
+    <string name="confirm_password">Confirm Password:</string>
+    <string name="Password">Password:</string>
+    <string name="update_now">Update Now</string>
+    <string name="d_o_r_o_b_o_t_i_c_s_f_o_r_l_i_f_e">D o R o b o t i c s F o r L i f e</string>
+    <string name="hello_rnxgians">Hello RNXGians....</string>
+    <string name="rnxg_2022">RNXG 2022</string>
+    <string name="upload">Upload data</string>
+    <string name="home">Home</string>
+    <string name="profile">Profile</string>
+    <string name="about_sggs">About SGGS</string>
+    <string name="about_rnxg">About RNXG</string>
+    <string name="logout">Logout</string>
+    <string name="admin">Admin</string>
+    <string name="shri_guru_gobind_singhji_institute_of_engineering_and_technology_sggsiet_nanded_is_one_of_the_promising_leader_institutions_in_technical_education_research_and_technology_transfer_since_its_inception_the_institute_is_dedicated_to_students_centric_learning_and_believes_in_pursuing_academic_excellence_it_is_having_neat_clean_and_green_campus_spread_over_land_of_46_acres_it_receives_100_grant_in_aid_from_government_of_maharashtra_the_institute_offers_10_undergraduate_and_10_postgraduate_programs_it_also_offers_ph_d_programs_in_most_of_the_areas_of_engineering_under_swami_ramanand_teerth_marathwada_university_nanded_and_is_also_selected_as_research_center_for_faculty_under_qip_of_ministry_of_hrd_government_of_india_new_delhi_institute_boasts_for_having_25_placement_mnc_partners_average_placement_record_for_last_five_years_is_above_60_training_and_placement_cell_maintain_a_strong_bond_between_institute_and_the_industry_the_institute_is_having_a_very_active_alumni_network_with_seaa_sggs_engineers_alumni_association_as_its_front_end_registered_organization">Shri Guru Gobind Singhji Institute of Engineering and Technology (SGGSIET), Nanded, is one of the promising leader institutions in technical education, research and technology transfer. Since its inception, the institute is dedicated to students’ centric learning and believes in pursuing academic excellence. It is having neat, clean and green campus spread over land of 46 acres. It receives 100% grant-in aid from Government of Maharashtra. The institute offers 10 undergraduate and 10 postgraduate programs. It also offers Ph.D. programs in most of the areas of Engineering under Swami Ramanand Teerth Marathwada University, Nanded and is also selected as research center for faculty under QIP of Ministry of HRD, Government of India, New Delhi Institute boasts for having 25+ Placement MNC partners. Average placement record for last five years is above 60%. Training and Placement Cell maintain a strong bond between Institute and the Industry. The institute is having a very active Alumni network with SEAA (SGGS Engineers Alumni Association) as its front end registered organization.</string>
+    <string name="team_rnxg">Team RNXG</string>
+    <string name="welcome">WELCOME</string>
+    <string name="component_name">Component name</string>
+    <string name="categories">Categories</string>
+    <string name="electronic_components">Electronic Components</string>
+    <string name="mechanical_components">Mechanical Components</string>
+    <string name="account">Account</string>
+    <string name="explore">Explore</string>
+    <string name="arduino_nano">Arduino Nano</string>
+    <string name="remaining">Remaining</string>
+    <string name="arduino_uno">Arduino Uno</string>
+    <string name="more">More</string>
+    <string name="hey_user">Hey User</string>
+    <string name="branch">Branch</string>
+    <string name="final_year">Final Year</string>
+    <string name="role">Role</string>
+    <string name="third_year">Third Year</string>
+    <string name="second_year">Second Year</string>
+    <string name="rnxg_robotics_for_next_generation">RNXG- Robotics For Next Generation</string>
+    <string name="achievements">Achievements</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="first_year">First Year</string>
+    <string name="hi">Hi!</string>
+    <string name="year">Year</string>
+    <string name="domain">Domain</string>
+    <string name="register">Register</string>
+    <string name="add_component">Add Component</string>
+
+
+</resources>

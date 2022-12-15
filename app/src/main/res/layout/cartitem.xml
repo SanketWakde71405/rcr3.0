@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+  >
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="6dp"
+        app:cardElevation="10dp"
+        android:layout_centerInParent="true"
+        android:layout_margin="10dp"
+        app:cardBackgroundColor="@color/white">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/AddedComponent"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="5dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginEnd="5dp"
+                android:fontFamily="@font/poppins_semibold"
+                android:text="Arduino Nano"
+                android:textAlignment="center"
+                android:textColor="#FF9416"
+                android:textSize="11sp"
+                tools:ignore="HardcodedText,TextContrastCheck" />
+            <ImageView
+                android:id="@+id/CartComponentImage"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_centerInParent="true"
+                android:contentDescription="@string/todo"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:src="@drawable/arduino_nano_1"
+                />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/CartComponentImage"
+                android:layout_centerHorizontal="true"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/Borrowed"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="40dp"
+                    android:fontFamily="@font/poppins"
+                    android:text="Qty: 2"
+                    android:layout_marginStart="10dp"
+                    android:textColor="@color/black"
+                    android:textSize="11sp"
+                    tools:ignore="HardcodedText,RtlSymmetry,SmallSp" />
+
+                <ImageView
+                    android:id="@+id/deleteCartItem"
+                    android:layout_width="22dp"
+                    android:layout_height="24dp"
+                    android:layout_marginStart="60dp"
+                    android:layout_marginTop="40dp"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="@null"
+                    android:contentDescription="@string/todo"
+                    android:src="@drawable/ic_delete"
+                    tools:ignore="ImageContrastCheck" />
+            </LinearLayout>
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    </RelativeLayout>
+
+

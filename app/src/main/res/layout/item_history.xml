@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        app:cardBackgroundColor="@color/white"
+        app:cardElevation="10dp">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Today, 17-10-2022"
+                android:textColor="#667C8A"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentStart="true"
+                android:layout_margin="10dp"
+                android:id="@+id/date"
+                android:layout_marginStart="15dp"
+                android:fontFamily="@font/poppins_medium"
+                android:textSize="15sp"
+                tools:ignore="HardcodedText" />
+
+            <androidx.core.widget.NestedScrollView
+                android:id="@+id/scroll1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/date"
+                android:layout_centerHorizontal="true"
+                android:overScrollMode="never">
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/rcViewInRcView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                </androidx.recyclerview.widget.RecyclerView>
+            </androidx.core.widget.NestedScrollView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/scroll1"
+                android:text="To be returned "
+                android:textSize="15sp"
+                android:textColor="#667C8A"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:id="@+id/toBeReturn"
+                android:layout_alignParentStart="true"
+                android:fontFamily="@font/poppins_medium"
+                tools:ignore="HardcodedText" />
+
+            <TextView
+                android:id="@+id/returnDateDisplay"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/scroll1"
+                android:layout_alignTop="@+id/toBeReturn"
+                android:layout_marginStart="10dp"
+                android:layout_toEndOf="@+id/toBeReturn"
+                android:fontFamily="@font/poppins_medium"
+                android:text="24-10-2022"
+                android:textColor="#667C8A"
+                android:textSize="15sp"
+                tools:ignore="HardcodedText" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Returning Status"
+                android:fontFamily="@font/poppins_medium"
+                android:textSize="15sp"
+                android:id="@+id/status"
+                android:layout_below="@+id/toBeReturn"
+                android:layout_marginStart="10dp"
+                android:layout_marginBottom="10dp"
+                tools:ignore="HardcodedText" />
+
+            <TextView
+                android:id="@+id/statusReturn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/status"
+                android:layout_marginStart="10dp"
+                android:layout_toEndOf="@+id/status"
+                android:text="NO"
+                android:textColor="#FF4141"
+                android:textSize="15sp"
+                tools:ignore="HardcodedText" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/cross"
+                android:id="@+id/symbolStatus"
+                android:layout_toEndOf="@+id/statusReturn"
+                android:layout_alignTop="@+id/statusReturn"
+                android:layout_marginStart="10dp"/>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardBackgroundColor="#C01616"
+                android:id="@+id/returnButton"
+                android:layout_marginTop="10dp"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/symbolStatus">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="RETURN"
+                        android:id="@+id/returnTextItem"
+                        android:textAllCaps="true"
+                        android:textSize="18sp"
+                        android:textColor="@color/white"
+                        android:fontFamily="@font/poppins_bold"
+                        android:layout_centerInParent="true"
+                        android:padding="10dp"
+                        tools:ignore="HardcodedText" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/finalreturn"
+                        android:layout_toEndOf="@+id/returnTextItem"
+                        android:layout_alignTop="@+id/returnTextItem"
+                        android:layout_marginTop="9dp"/>
+
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <View
+                android:id="@+id/linearView"
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:layout_below="@+id/returnButton"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                android:background="#E6E6E6" />
+
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+</RelativeLayout>

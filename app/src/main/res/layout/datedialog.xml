@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="328dp"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/white"
+    app:cardBackgroundColor="@null"
+    app:cardCornerRadius="16dp"
+    app:cardElevation="10dp"
+    android:theme="@style/Theme.MaterialComponents.Light.NoActionBar"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_centerInParent="true"
+                android:layout_marginTop="16dp"
+                android:layout_marginStart="24dp"
+                android:fontFamily="@font/poppins_bold"
+                android:paddingTop="5dp"
+                android:text="Confirm ?"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                tools:ignore="HardcodedText" />
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_gravity="center"
+                android:layout_marginStart="24dp"
+                android:layout_marginTop="8dp"
+                android:fontFamily="@font/poppins"
+                android:paddingTop="5dp"
+                android:text="Enter Approval Date and Return Date in\nthe following format (dd-mm-yyyy)"
+                android:textColor="#151920"
+                android:textSize="12sp"
+                tools:ignore="HardcodedText" />
+        </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            app:hintAnimationEnabled="false"
+            android:layout_margin="10dp"
+            android:background="@android:color/transparent"
+            app:boxStrokeColor="#233BCC"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="65dp"
+                android:ems="10"
+                android:id="@+id/approvalDate"
+                android:fontFamily="@font/poppins_light"
+                android:hint="Approval Date"
+                android:textColor="@color/black"
+                android:inputType="date"
+                android:textSize="20sp"
+                android:paddingTop="16dp"
+                android:layout_marginTop="16dp"
+                app:textInputLayoutFocusedRectEnabled="false"
+                tools:ignore="HardcodedText" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            app:hintAnimationEnabled="false"
+            android:layout_margin="10dp"
+            android:background="@android:color/transparent"
+            app:boxStrokeColor="#233BCC"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="65dp"
+                android:ems="10"
+                android:id="@+id/returnDate"
+                android:fontFamily="@font/poppins_light"
+                android:hint="Return Date"
+                android:textColor="@color/black"
+                android:inputType="date"
+                android:textSize="20sp"
+                android:paddingTop="16dp"
+                android:layout_marginTop="16dp"
+                app:textInputLayoutFocusedRectEnabled="false"
+                tools:ignore="HardcodedText" />
+        </com.google.android.material.textfield.TextInputLayout>
+    </LinearLayout>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/dateConfirm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:layout_marginStart="24dp"
+            app:cardBackgroundColor="#2B4BF2"
+            app:cardCornerRadius="8dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="42dp"
+                android:fontFamily="@font/poppins_semibold"
+                android:textSize="18sp"
+                android:textColor="@color/white"
+                android:text="OK"
+                android:textAllCaps="true"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center"
+                tools:ignore="HardcodedText" />
+        </androidx.cardview.widget.CardView>
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            app:cardBackgroundColor="@color/white"
+            android:layout_margin="10dp"
+            android:id="@+id/cancelNegativeButton"
+            app:cardCornerRadius="8dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginStart="24dp"
+            app:strokeColor="#566789"
+            app:strokeWidth="1dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="42dp"
+                android:fontFamily="@font/poppins_semibold"
+                android:textSize="18sp"
+                android:textColor="#151920"
+                android:text="Cancel"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center"
+                tools:ignore="HardcodedText" />
+        </com.google.android.material.card.MaterialCardView>
+
+
+    </LinearLayout>
+
+
+</com.google.android.material.card.MaterialCardView>

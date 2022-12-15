@@ -1,0 +1,406 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/white"
+    android:layout_centerInParent="true"
+    tools:context=".AdminFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:orientation="horizontal"
+            tools:ignore="ObsoleteLayoutParam">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:fontFamily="@font/poppins_semibold"
+                    android:text="Admin"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="30sp"
+                    tools:ignore="HardcodedText" />
+
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/AddCard"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    app:cardBackgroundColor="#E13300"
+                    app:cardCornerRadius="6dp"
+                    app:cardElevation="10dp">
+
+                    <RelativeLayout
+                        android:layout_width="155dp"
+                        android:layout_height="120dp">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentStart="true"
+                            android:layout_alignParentTop="true"
+                            android:layout_alignParentEnd="true"
+                            android:layout_margin="10dp"
+                            android:fontFamily="@font/inter_bold"
+                            android:paddingTop="5dp"
+                            android:text="Add Components"
+                            android:textColor="@color/white"
+                            android:textSize="18sp"
+                            tools:ignore="HardcodedText" />
+
+                        <ImageView
+                            android:layout_width="28.22dp"
+                            android:layout_height="25.27dp"
+                            android:layout_alignParentStart="true"
+                            android:layout_alignParentBottom="true"
+                            android:layout_marginStart="12dp"
+                            android:layout_marginEnd="10dp"
+                            android:layout_marginBottom="20dp"
+                            android:src="@drawable/adminadd" />
+
+                    </RelativeLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/UpdateComponents"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginBottom="10dp"
+                    app:cardBackgroundColor="#1E3264"
+                    app:cardCornerRadius="6dp"
+                    app:cardElevation="10dp">
+
+                    <RelativeLayout
+                        android:layout_width="155dp"
+                        android:layout_height="120dp">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentStart="true"
+                            android:layout_alignParentTop="true"
+                            android:layout_alignParentEnd="true"
+                            android:layout_margin="10dp"
+                            android:fontFamily="@font/inter_bold"
+                            android:paddingTop="5dp"
+                            android:text="Update         Data"
+                            android:textColor="@color/white"
+                            android:textSize="18sp"
+                            tools:ignore="HardcodedText" />
+
+                        <ImageView
+                            android:layout_width="24.88dp"
+                            android:layout_height="24.88dp"
+                            android:layout_alignParentStart="true"
+                            android:layout_alignParentBottom="true"
+                            android:layout_marginStart="12dp"
+                            android:layout_marginEnd="10dp"
+                            android:layout_marginBottom="20dp"
+                            android:src="@drawable/adminupdate" />
+
+                    </RelativeLayout>
+
+                </androidx.cardview.widget.CardView>
+            </RelativeLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="10dp"
+                    app:cardBackgroundColor="#773795"
+                    app:cardCornerRadius="6dp"
+                    app:cardElevation="10dp">
+
+                    <RelativeLayout
+                        android:layout_width="155dp"
+                        android:layout_height="120dp">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentStart="true"
+                            android:layout_alignParentTop="true"
+                            android:layout_alignParentEnd="true"
+                            android:layout_margin="10dp"
+                            android:fontFamily="@font/inter_bold"
+                            android:paddingTop="5dp"
+                            android:text="Track User History"
+                            android:textColor="@color/white"
+                            android:textSize="18sp"
+                            tools:ignore="HardcodedText" />
+
+                        <ImageView
+                            android:layout_width="24.88dp"
+                            android:layout_height="24.88dp"
+                            android:layout_alignParentStart="true"
+                            android:layout_alignParentBottom="true"
+                            android:layout_marginStart="12dp"
+                            android:layout_marginEnd="10dp"
+                            android:layout_marginBottom="20dp"
+                            android:src="@drawable/adminhistory" />
+
+                    </RelativeLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/DeleteComponents"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginBottom="10dp"
+                    app:cardBackgroundColor="#193040"
+                    app:cardCornerRadius="6dp"
+                    app:cardElevation="10dp">
+
+
+                    <RelativeLayout
+                        android:layout_width="155dp"
+                        android:layout_height="120dp">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentStart="true"
+                            android:layout_alignParentTop="true"
+                            android:layout_alignParentEnd="true"
+                            android:layout_margin="10dp"
+                            android:fontFamily="@font/inter_bold"
+                            android:paddingTop="5dp"
+                            android:text="Delete Component"
+                            android:textColor="@color/white"
+                            android:textSize="18sp"
+                            tools:ignore="HardcodedText" />
+
+                        <ImageView
+                            android:layout_width="24.88dp"
+                            android:layout_height="24.88dp"
+                            android:layout_alignParentStart="true"
+                            android:layout_alignParentBottom="true"
+                            android:layout_marginStart="12dp"
+                            android:layout_marginEnd="10dp"
+                            android:layout_marginBottom="20dp"
+                            android:src="@drawable/admindelete" />
+
+                    </RelativeLayout>
+                </androidx.cardview.widget.CardView>
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/ExploreComponents"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="10dp"
+                    app:cardBackgroundColor="#8B1932"
+                    app:cardCornerRadius="6dp"
+                    app:cardElevation="10dp">
+
+                    <RelativeLayout
+                        android:layout_width="155dp"
+                        android:layout_height="120dp">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentStart="true"
+                            android:layout_alignParentTop="true"
+                            android:layout_alignParentEnd="true"
+                            android:layout_margin="10dp"
+                            android:fontFamily="@font/inter_bold"
+                            android:paddingTop="5dp"
+                            android:text="Explore Section"
+                            android:textColor="@color/white"
+                            android:textSize="18sp"
+                            tools:ignore="HardcodedText" />
+
+                        <ImageView
+                            android:layout_width="24.88dp"
+                            android:layout_height="24.88dp"
+                            android:layout_alignParentStart="true"
+                            android:layout_alignParentBottom="true"
+                            android:layout_marginStart="12dp"
+                            android:layout_marginEnd="10dp"
+                            android:layout_marginBottom="20dp"
+                            android:src="@drawable/adminexplore" />
+
+                    </RelativeLayout>
+                </androidx.cardview.widget.CardView>
+
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/NewComponents"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="20dp"
+                    app:cardBackgroundColor="#B02896"
+                    app:cardCornerRadius="6dp"
+                    app:cardElevation="10dp">
+
+                    <RelativeLayout
+                        android:layout_width="155dp"
+                        android:layout_height="120dp">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentStart="true"
+                            android:layout_alignParentTop="true"
+                            android:layout_alignParentEnd="true"
+                            android:layout_margin="10dp"
+                            android:fontFamily="@font/inter_bold"
+                            android:paddingTop="5dp"
+                            android:text="Newly       Added"
+                            android:textColor="@color/white"
+                            android:textSize="18sp"
+                            tools:ignore="HardcodedText" />
+
+                        <ImageView
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_alignParentStart="true"
+                            android:layout_alignParentBottom="true"
+                            android:layout_margin="10dp"
+                            android:src="@drawable/new1" />
+
+                    </RelativeLayout>
+                </androidx.cardview.widget.CardView>
+            </RelativeLayout>
+
+
+        </LinearLayout>
+
+         <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/scanQR"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="10dp"
+                    app:cardBackgroundColor="#A56752"
+                    app:cardCornerRadius="6dp"
+                    app:cardElevation="10dp">
+
+                    <RelativeLayout
+                        android:layout_width="155dp"
+                        android:layout_height="120dp">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentStart="true"
+                            android:layout_alignParentTop="true"
+                            android:layout_alignParentEnd="true"
+                            android:layout_margin="10dp"
+                            android:fontFamily="@font/inter_bold"
+                            android:paddingTop="5dp"
+                            android:text="Scan
+                            QR Code"
+                            android:textColor="@color/white"
+                            android:textSize="18sp"
+                            tools:ignore="HardcodedText" />
+
+                        <ImageView
+                            android:layout_width="24.88dp"
+                            android:layout_height="24.88dp"
+                            android:layout_alignParentStart="true"
+                            android:layout_alignParentBottom="true"
+                            android:layout_marginStart="12dp"
+                            android:layout_marginEnd="10dp"
+                            android:layout_marginBottom="20dp"
+                            android:src="@drawable/qr_code_scan" />
+
+                    </RelativeLayout>
+                </androidx.cardview.widget.CardView>
+
+            </RelativeLayout>
+         </LinearLayout>
+    </LinearLayout>
+
+
+
+</RelativeLayout>

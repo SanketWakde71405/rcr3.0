@@ -1,0 +1,402 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:overScrollMode="never"
+    android:background="@color/white"
+    tools:context=".UpdateComponent1"
+    tools:ignore="SpeakableTextPresentCheck">
+
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/upperCard"
+                android:layout_width="match_parent"
+                android:layout_height="?actionBarSize"
+                app:cardBackgroundColor="@color/white"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:cardElevation="10dp">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginStart="5dp"
+                    android:padding="10dp"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/ic_back_arrow"
+                    android:id="@+id/back_to_updateList"
+                    android:contentDescription="TODO"
+                    tools:ignore="ContentDescription,HardCodedText"/>
+            </androidx.cardview.widget.CardView>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/upperCard">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="384dp">
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="354dp"
+                        android:layout_height="355dp"
+                        android:layout_centerInParent="true"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginEnd="10dp"
+                        android:padding="20dp"
+                        android:paddingTop="50dp"
+                        app:cardBackgroundColor="@color/white"
+                        app:cardCornerRadius="35dp"
+                        app:cardElevation="10dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:id="@+id/ComponentImageUpdate"
+                                android:layout_width="300dp"
+                                android:layout_height="275dp"
+                                android:layout_gravity="center"
+                                android:layout_margin="10dp"
+                                android:layout_marginBottom="10dp"
+                                android:src="@drawable/arduino_uno"
+                                tools:ignore="ContentDescription" />
+
+                            <androidx.cardview.widget.CardView
+                                android:layout_width="153dp"
+                                android:layout_height="34dp"
+                                android:id="@+id/ChangeImage"
+                                android:layout_gravity="center"
+                                android:layout_marginStart="30dp"
+                                android:layout_marginEnd="30dp"
+                                android:layout_marginBottom="10dp"
+                                android:padding="10dp"
+                                app:cardBackgroundColor="#FF9416"
+                                app:cardElevation="5dp">
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center"
+                                    android:fontFamily="@font/poppins_medium"
+                                    android:shadowDx="1"
+                                    android:shadowDy="1"
+                                    android:shadowRadius="5"
+                                    android:text="Change Image"
+                                    android:textAlignment="center"
+                                    android:textColor="@color/white"
+                                    android:textSize="12sp"
+                                    tools:ignore="HardCodedText,TextContrastCheck" />
+
+                            </androidx.cardview.widget.CardView>
+                        </LinearLayout>
+                    </androidx.cardview.widget.CardView>
+                </RelativeLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/floating_component_update"
+                        android:background="@android:color/transparent"
+                        app:boxStrokeColor="#233BCC"
+                        android:layout_gravity="center"
+                        android:theme="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:background="@android:color/transparent"
+                        android:id="@+id/ComponentNameUpdate"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginEnd="15dp"
+                        android:padding="10dp"
+                        android:fontFamily="@font/poppins_semibold"
+                        android:inputType="text"
+                        android:paddingTop="15dp"
+                        android:text="Component name"
+                        android:textColor="@color/black"
+                        android:textSize="22sp"
+                        tools:ignore="Autofill,HardcodedText,LabelFor" />
+
+                    </com.google.android.material.textfield.TextInputLayout>
+
+                    <ImageView
+                        android:id="@+id/EditButton"
+                        android:layout_width="38dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginEnd="20dp"
+                        android:src="@drawable/edit"
+                        tools:ignore="ContentDescription" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="48dp"
+                        android:text="Type"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginEnd="10dp"
+                        android:textColor="@color/black"
+                        android:textAlignment="textStart"
+                        android:fontFamily="@font/poppins_medium"
+                        android:textSize="17sp"
+                        tools:ignore="HardCodedText"/>
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:id="@+id/floating_type_update"
+                        android:layout_gravity="center"
+                        android:background="@android:color/transparent"
+                        app:boxStrokeColor="#233BCC"
+                        android:theme="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+
+                        <androidx.appcompat.widget.AppCompatSpinner
+                            android:id="@+id/type_update"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center"
+                            android:ems="10"
+                            android:fontFamily="@font/poppins_light"
+                            android:hint="Select type"
+                            android:inputType="text"
+                            android:textColor="@color/black"
+                            android:textSize="20sp"
+                            app:textInputLayoutFocusedRectEnabled="false"
+                            tools:ignore="HardCodedText,SpeakableTextPresentCheck" />
+
+                    </com.google.android.material.textfield.TextInputLayout>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="150dp"
+                        android:layout_height="48dp"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginEnd="10dp"
+                        android:fontFamily="@font/poppins_medium"
+                        android:text="Available"
+                        android:textColor="@color/black"
+                        android:textSize="17sp"
+                        tools:ignore="HardCodedText" />
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/floating_component_available_update"
+                        android:background="@android:color/transparent"
+                        app:boxStrokeColor="#233BCC"
+                        android:theme="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+                        <com.google.android.material.textfield.TextInputEditText
+                            android:background="@android:color/transparent"
+                            android:id="@+id/ComponentAvailableUpdate"
+                            android:layout_width="wrap_content"
+                            android:layout_height="48dp"
+                            android:layout_gravity="center"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginEnd="15dp"
+                            android:padding="10dp"
+                            android:fontFamily="@font/poppins_medium"
+                            android:inputType="number"
+                            android:text="5"
+                            android:textColor="@color/black"
+                            android:textSize="17sp"
+                            tools:ignore="Autofill,DuplicateSpeakableTextCheck,HardcodedText,LabelFor,TouchTargetSizeCheck" />
+
+                    </com.google.android.material.textfield.TextInputLayout>
+
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="150dp"
+                        android:layout_height="48dp"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginEnd="10dp"
+                        android:fontFamily="@font/poppins_medium"
+                        android:text="Working"
+                        android:textColor="@color/black"
+                        android:textSize="17sp"
+                        tools:ignore="HardCodedText" />
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/floating_component_working_update"
+                        android:background="@android:color/transparent"
+                        app:boxStrokeColor="#233BCC"
+                        android:theme="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+                        <com.google.android.material.textfield.TextInputEditText
+                            android:background="@android:color/transparent"
+                            android:id="@+id/ComponentWorkingUpdate"
+                            android:layout_width="wrap_content"
+                            android:layout_height="48dp"
+                            android:layout_gravity="center"
+                            android:padding="10dp"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginEnd="15dp"
+                            android:fontFamily="@font/poppins_medium"
+                            android:inputType="number"
+                            android:minWidth="48dp"
+                            android:text="5"
+                            android:textColor="@color/black"
+                            android:textSize="17sp"
+                            tools:ignore="Autofill,HardcodedText,LabelFor" />
+
+                    </com.google.android.material.textfield.TextInputLayout>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="150dp"
+                        android:layout_height="48dp"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginEnd="10dp"
+                        android:fontFamily="@font/poppins_medium"
+                        android:text="Not Working"
+                        android:textColor="@color/black"
+                        android:textSize="17sp"
+                        tools:ignore="HardCodedText" />
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/floating_component_non_working_update"
+                        android:background="@android:color/transparent"
+                        app:boxStrokeColor="#233BCC"
+                        android:theme="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+
+                        <com.google.android.material.textfield.TextInputEditText
+                            android:id="@+id/ComponentNon_WorkingUpdate"
+                            android:layout_width="wrap_content"
+                            android:layout_height="48dp"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginEnd="15dp"
+                            android:layout_gravity="center"
+                            android:padding="10dp"
+                            android:background="@android:color/transparent"
+                            android:fontFamily="@font/poppins"
+                            android:inputType="number"
+                            android:minWidth="48dp"
+                            android:text="0"
+                            android:textColor="@color/black"
+                            android:textSize="17sp"
+                            tools:ignore="Autofill,HardcodedText,LabelFor" />
+                    </com.google.android.material.textfield.TextInputLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="150dp"
+                        android:layout_height="48dp"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginEnd="10dp"
+                        android:fontFamily="@font/poppins_medium"
+                        android:text="Specifications"
+                        android:textColor="@color/black"
+                        android:textSize="17sp"
+                        tools:ignore="HardCodedText" />
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/floating_component_specs_update"
+                        android:background="@android:color/transparent"
+                        app:boxStrokeColor="#233BCC"
+                        android:theme="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+                        <com.google.android.material.textfield.TextInputEditText
+                            android:background="@android:color/transparent"
+                            android:id="@+id/ComponentSpecsUpdate"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginEnd="15dp"
+                            android:fontFamily="@font/poppins"
+                            android:importantForAutofill="no"
+                            android:inputType="textMultiLine"
+                            android:text="Micro-controller : ATmega328.\nOperating Voltage : 5V.\nInput Voltage (recommended) : 7-12V.\nDigital I/O Pins : 14 (of which 6 provide PWM output).\nAnalog Input Pins : 6."
+                            android:textColor="@color/black"
+                            android:textSize="17sp"
+                            tools:ignore="HardcodedText,LabelFor,TouchTargetSizeCheck" />
+
+                    </com.google.android.material.textfield.TextInputLayout>
+
+
+                </LinearLayout>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/Update_Data"
+                    android:layout_width="270dp"
+                    android:layout_height="48dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="15dp"
+                    app:cardBackgroundColor="#FF9416"
+                    app:cardCornerRadius="5dp"
+                    app:cardElevation="10dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:fontFamily="@font/poppins_semibold"
+                        android:text="Update Data"
+                        android:layout_marginTop="10dp"
+                        android:textAlignment="center"
+                        android:textColor="@color/white"
+                        android:textSize="14sp"
+                        tools:ignore="HardcodedText,TextContrastCheck" />
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    </androidx.core.widget.NestedScrollView>
